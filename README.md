@@ -1,20 +1,17 @@
-# Python Scraping
+
+# Best Market Scraper
+
+Aplicacion para obtencion de precio de productos de diferentes proveedores y busqueda del mejor precio.
+ 
 
 
-Instalar python
+## Installation
 
-Instalar poetry
-
-Poetry is a tool for dependency management and packaging in Python.
-
-curl -sSL https://install.python-poetry.org | python3 -
-
-
-Probar instalacion
-
-poetry --version
-
-Activating the virtual environment
-The easiest way to activate the virtual environment is to create a nested shell with poetry shell.
-
-To deactivate the virtual environment and exit this new shell type exit. To deactivate the virtual environment without leaving the shell use deactivate
+- Poetry: Para el proyecto se usa poetry, para iniciar el uso de este se usan los siguinetes comandos
+```bash 
+pipx install poetry
+poetry shell
+poetry install
+poetry run python main.py
+```
+    
