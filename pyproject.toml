@@ -2,11 +2,12 @@
 name = "python-scraping"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Kevin Rincon <kevinrincon8@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.12"
+selenium = "^4.19.0"
 
 
 [build-system]

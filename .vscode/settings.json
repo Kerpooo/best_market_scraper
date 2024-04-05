@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "general",
-        "conventional_commits"
+        "conventional_commits",
+        "categorias"
     ]
 }
